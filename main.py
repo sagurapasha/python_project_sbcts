@@ -30,6 +30,8 @@ style.theme_use("clam")  # Используем тему 'clam' для совр�
 main_frame = tk.Frame(root)
 main_frame.pack(fill="both", expand=True)
 
+print ("sd")
+
 # Левая панель
 left_panel = tk.Frame(main_frame, width=205, bg="lightgrey", bd=2, relief="groove")  # Добавляем рамку и стиль
 left_panel.pack(side="left", fill="y", padx=1, pady=1)  # Добавляем отступы (10 пикселей с каждой стороны)
@@ -43,6 +45,13 @@ right_panel.pack(side="right", fill="both", expand=True)
 application_frame = tk.Frame(right_panel)
 sbcts_archive_frame = tk.Frame(right_panel)
 settings_frame = tk.Frame(right_panel)
+
+asdasdas
+
+asddasdas
+
+dasdasdas
+dasdas
 
 # Переменные стиля
 
